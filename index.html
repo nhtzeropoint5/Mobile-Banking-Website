@@ -39,12 +39,15 @@
     <div class="card bg-base-100 w-full max-w-sm shrink-0 rounded-2xl mx-auto">
       <div class="card-body">
         <fieldset class="fieldset space-y-1.5">
+
           <label class="label font-semibold text-black text-base">Mobile Number</label>
-          <input type="number" minlength="4" maxlength="4" class="input bg-gray-100 border-none rounded-2xl" placeholder="Enter Your Number" />
+          <input id="mob-num" minlength="11" maxlength="11" type="text"  class="input bg-gray-100 border-none rounded-2xl" placeholder="Enter Your Number" value="01712501382" />
+
           <label class="label font-semibold text-black text-base">4 Digit PIN</label>
-          <input type="password" class="input bg-gray-100 border-none rounded-2xl" placeholder="Enter 4 digit pin" />
-          
-          <button class="btn btn-primary rounded-3xl mt-4 text-lg">Login</button>
+          <input id="pin" minlength="4" maxlength="4" type="password" class="input bg-gray-100 border-none rounded-2xl" placeholder="Enter 4 digit pin" value="1234" />
+
+          <button id="login-btn" class="btn btn-primary rounded-3xl mt-4 text-lg">Login</button>
+
         </fieldset>
       </div>
     </div>
