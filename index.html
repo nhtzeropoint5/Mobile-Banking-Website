@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Payoo Mobile Bank | Login</title>
   <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -25,11 +25,33 @@
 
 }
 </style>
-
 </head>
-<body class="min-h-screen max-width-md mx-auto">
-  <h1>Hello Lets Start Coding</h1>
-  
-  <script src="script.js"></script>
+<body class="min-h-screen max-w-md bg-base-200 mx-auto flex flex-col align-middle justify-center">
+
+
+
+  <div class="">
+  <div class="logo">
+    <img src="./assets/Logo-full.png" alt="" class="mx-auto">
+  </div>
+
+<div class="form pt-10 ">
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 rounded-2xl mx-auto">
+      <div class="card-body">
+        <fieldset class="fieldset space-y-1.5">
+          <label class="label font-semibold text-black text-base">Mobile Number</label>
+          <input type="number" minlength="4" maxlength="4" class="input bg-gray-100 border-none rounded-2xl" placeholder="Enter Your Number" />
+          <label class="label font-semibold text-black text-base">4 Digit PIN</label>
+          <input type="password" class="input bg-gray-100 border-none rounded-2xl" placeholder="Enter 4 digit pin" />
+          
+          <button class="btn btn-primary rounded-3xl mt-4 text-lg">Login</button>
+        </fieldset>
+      </div>
+    </div>
+</div>
+</div>
+
+
+  <script src="./script/login.js"></script>
 </body>
 </html>
