@@ -8,7 +8,7 @@ document.getElementById('cashout-btn').addEventListener('click', function () {
     const cPin = document.getElementById('pin-cashout').value;
 
        if(agentNum.length != 11 ){
-        window.alert("Invalid Number");
+        window.alert("Invalid Number"); 
         return;
     }
 
