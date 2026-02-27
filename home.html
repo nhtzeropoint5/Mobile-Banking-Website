@@ -49,7 +49,7 @@
       <p class="text-neutral/50 leading-8">Lorem ipsum dolor, sit amet consectetur adipisicing brbrbr bubby bubby elit.</p>
 
 <div class="buttons grid grid-cols-3 gap-3">
-    <button class="btn flex-col h-full py-4 btn-primary btn-soft"><img src="./assets/opt-1.png" alt=""><p>Add money</p></button>
+    <button onclick ="showOnly('add-money')" class="btn flex-col h-full py-4 btn-primary btn-soft"><img src="./assets/opt-1.png" alt=""><p>Add money</p></button>
     <button class="btn flex-col h-full py-4 btn-primary btn-soft"><img src="./assets/opt-2.png" alt=""><p>Cashout</p></button>
     <button class="btn flex-col h-full py-4 btn-primary btn-soft"><img src="./assets/opt-3.png" alt=""><p>Send Money</p></button>
     <button class="btn flex-col h-full py-4 btn-primary btn-soft"><img src="./assets/opt-4.png" alt=""><p>Get Bonus</p></button>
@@ -95,7 +95,7 @@
 
 
 
-<section class="cash-out w-11/12 mx-auto py-7 space-y-5">
+<section id="cash-out" class="w-11/12 mx-auto py-7 space-y-5">
 <h2 class="text-xl font-bold">Cashout</h2>
 
     <div class="form pt-1 ">
@@ -121,6 +121,7 @@
 </section>
 
   <script src="./script/machine.js"></script>
+  <script src ="./addmoney.js"></script>
   <script src="./script/home.js"></script>
 </body>
 </html>
